@@ -1,0 +1,6 @@
+---
+## default values for ansible-role-access
+
+user-access_users: []
+  # - name: "thomasbrody"
+  #   public_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNUm1Ww8NaAsWRM..."

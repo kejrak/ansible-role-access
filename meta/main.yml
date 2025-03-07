@@ -1,0 +1,15 @@
+galaxy_info:
+  author: kejrak
+  description: Ansible role to handle user access.
+  license: license (GPL-2.0-or-later, MIT, etc)
+
+  role_name: access
+  namespace: kejrak
+  min_ansible_version: 2.1
+
+  galaxy_tags:
+    - ssh
+    - user
+    - keys
+    - role
+    - ansible

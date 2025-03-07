@@ -1,0 +1,18 @@
+argument_specs:
+  main:
+    short_description: Argument specs for access role.
+    options:
+      access_users:
+        description: List of users and their public keys.
+        type: "list"
+        elements: "dict"
+        options:
+          name:
+            description: Name of the user.
+            type: "str"
+            required: true
+          public_key:
+            description: Public SSH key of the user.
+            type: "str"
+            required: true
+            
