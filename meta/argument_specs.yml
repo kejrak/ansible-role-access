@@ -15,4 +15,3 @@ argument_specs:
             description: Public SSH key of the user.
             type: "str"
             required: true
-            

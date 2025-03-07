@@ -5,5 +5,4 @@
     - name: Import task to grant access to user
       ansible.builtin.import_tasks: access_user_management.yml
     - name: Import task to edit sshd_config file
-      ansible.builtin.import_tasks: access_sshd_config.yml
-      
+      ansible.builtin.import_tasks: access_sshd_config.yml 

@@ -1,5 +1,4 @@
 ---
-
 - name: Create a user with root privileges
   ansible.builtin.user:
     name: "{{ item.name }}"
@@ -22,4 +21,3 @@
     state: present
     key: "{{ item.public_key }}"
   loop: "{{ access_users }}"
-  
