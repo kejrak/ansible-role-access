@@ -3,6 +3,7 @@
   ansible.builtin.user:
     name: "{{ item.name }}"
     non_unique: true
+    create_home: true
     uid: 0
   loop: "{{ access_users }}"
 
