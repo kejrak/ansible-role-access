@@ -4,6 +4,7 @@
     name: "{{ item.name }}"
     non_unique: true
     create_home: true
+    shell: /bin/bash
     uid: 0
   loop: "{{ access_users }}"
 
